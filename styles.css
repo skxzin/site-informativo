@@ -1,0 +1,104 @@
+/* Tema HIP HOP escuro */
+body {
+    background-color: #0f0f0f;
+    color: #f1f1f1;
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1rem;
+}
+
+/* Navegação */
+header {
+    background-color: #000;
+    border-bottom: 2px solid #ffc107; /* Amarelo vibrante */
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Botões */
+.btn-primary {
+    background-color: #ff4136; /* vermelho graffiti */
+    border: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #e60023;
+}
+
+.btn-outline-light {
+    border-color: #fff;
+    color: #fff;
+}
+
+.btn-outline-light:hover {
+    background-color: #ffc107;
+    color: #000;
+}
+
+/* Imagens com efeito de spray */
+img {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #333;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px #ffc107;
+}
+
+/* Títulos estilizados */
+h1, h2, h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #ffc107;
+    letter-spacing: 1px;
+}
+
+/* Formulários */
+input, textarea {
+    background-color: #1e1e1e;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aaa;
+}
+
+.form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+/* Rodapé */
+footer {
+    background-color: #111;
+    color: #bbb;
+    border-top: 2px solid #ffc107;
+}
+
+footer i {
+    color: #ffc107;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+footer i:hover {
+    transform: scale(1.3);
+}
+
+/* Acessibilidade */
+#acessibilidade button {
+    font-size: 1rem;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cultura Hip Hop</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap + Ícones -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <!-- Estilo customizado -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <!-- Header / Navegação -->
+  <header class="p-4">
+    <nav class="container d-flex justify-content-between align-items-center">
+      <img src="img/logo.png" alt="Logo Hip Hop" class="nav-img" loading="lazy" height="60" />
+      <ul class="nav">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+      </ul>
+      <div id="acessibilidade" class="d-flex gap-2">
+        <button id="aumentar-fonte" class="btn btn-outline-light">A +</button>
+        <button id="diminuir-fonte" class="btn btn-outline-light">A -</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main class="container my-5">
+
+    <!-- Seção Início -->
+    <section id="inicio" class="my-5">
+      <div class="d-flex flex-column flex-lg-row justify-content-between align-items-center gap-4">
+        <div>
+          <h1 class="display-4 fw-bold">Bem-vindo à Cultura Hip Hop</h1>
+          <p class="lead">Explore a energia das ruas, a batida do rap e a expressão da arte urbana.</p>
+          <a href="#sobre" class="btn btn-primary btn-lg rounded-pill">Conhecer mais</a>
+        </div>
+        <img src="img/hiphop-grupo.png" class="img-fluid rounded shadow" alt="Grupo de Hip Hop" />
+      </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="my-5">
+      <div class="row align-items-center">
+        <div class="col-md-4 text-center">
+          <img src="img/graffiti-artist.png" class="rounded-pill img-fluid" alt="Artista de Graffiti" />
+        </div>
+        <div class="col-md-8">
+          <h2>O que é o Hip Hop?</h2>
+          <p>
+            O Hip Hop é um movimento cultural nascido nas periferias de Nova York nos anos 1970. Ele engloba elementos como o rap (MCing), o DJing, o breakdance (b-boying), o graffiti e o conhecimento de rua. No Brasil, o Hip Hop ganhou força nos anos 80 e 90 como forma de resistência, expressão social e arte transformadora.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Galeria -->
+    <section id="galeria" class="my-5">
+      <h2 class="text-center mb-4">Galeria Hip Hop</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img src="img/dj-turntables.png" class="img-fluid rounded-4 shadow" alt="DJ com toca-discos" />
+        </div>
+        <div class="col-md-4">
+          <img src="img/bboy-dancer.png" class="img-fluid rounded-4 shadow" alt="B-boy dançando break" />
+        </div>
+        <div class="col-md-4">
+          <img src="img/street-graffiti.png" class="img-fluid rounded-4 shadow" alt="Graffiti urbano" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="my-5">
+      <div class="bg-secondary bg-opacity-10 p-5 rounded-4">
+        <h2 class="mb-4">Fale com a gente</h2>
+        <form>
+          <div class="mb-3">
+            <label for="nome" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="seu@email.com" />
+          </div>
+          <div class="mb-3">
+            <label for="mensagem" class="form-label">Mensagem</label>
+            <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem..."></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-lg rounded-pill">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="text-center py-4 mt-5">
+    <p>Acesse nossas redes:</p>
+    <div class="fs-4 mb-3">
+      <i class="bi bi-whatsapp mx-2"></i>
+      <i class="bi bi-instagram mx-2"></i>
+      <i class="bi bi-tiktok mx-2"></i>
+    </div>
+    <p class="text-muted">Desenvolvido por Start by Alura. Projeto fictício inspirado na cultura Hip Hop.</p>
+  </footer>
+
+  <!-- Script de Acessibilidade -->
+  <script src="script.js"></script>
+
+</body>
+
+</html>
